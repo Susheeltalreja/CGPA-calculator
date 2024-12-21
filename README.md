@@ -1,7 +1,7 @@
 <b> It is a simple CGPA calculator </b>
 <br>
-<b> Grades Calculation </b>
 
+<b> Grades Calculation </b>
 <br>
 marks greater than 87 = <b>A</b> 
 <br>
