@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="contain">
+        <div class="inputs_courses">
+          <label for="For course:?">How many Courses you have?</label>
+          <input
+            type="text"
+            placeholder="How many Courses You have?"
+            id="courses_input"
+          />
+          <button type="submit" class="btn">Submit</button>
+        </div>
+        <div class="total_courses"></div>
+        <div class="btns">
+            <button type="submit" class="btn2">Submit</button>
+          <button type="reset" class="btn3">Clear</button>
+        </div>
+        <div class="headings">
+          <h3 id="TC">Total Credit Hours is: 0</h3>
+          <h3 id="TQ">Total Qualtiy points: 0</h3>
+          <h3 id="CG">Your CGPA is: 0</h3>
+        </div>
+        <div class="output">
+            <button class="btn_main">Course Details</button>
+        </div>
+    </div>
+      <div class="complete_details">
+        <div class="linecourse">
+          <i id="x" class="fa-solid fa-xmark"></i>
+          <ul></ul>
+        </div>
+        <div class="section">
+          <h4 class="total_marks">Total marks: 0</h4>
+          <h4 class="total_CGPA">CGPA: 0</h4>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
